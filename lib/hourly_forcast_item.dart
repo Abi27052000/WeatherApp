@@ -19,28 +19,30 @@ class HourlyForcastItem extends StatelessWidget {
       child: Card(
         elevation: 10,
         child: Padding(
-          padding: EdgeInsets.all(8.0),
+          padding: const EdgeInsets.all(8.0),
           child: Column(
             children: [
               Text(
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
                 time,
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 20,
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
               Icon(
                 icon,
                 size: 32,
               ),
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
               Text(
                 temperature,
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 20,
                 ),
               ),
