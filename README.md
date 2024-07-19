@@ -7,10 +7,7 @@ A Flutter-based mobile application that provides real-time weather information a
 - View current weather conditions including temperature, humidity, and wind speed
 - Check hourly and daily weather forecasts
 - Search for weather information by city name
-- Responsive design for various screen sizes
 - Clean and intuitive user interface
-
-## Getting Started
 
 ### Prerequisites
 
@@ -47,7 +44,6 @@ lib/
 
 - Launch the app on your device or emulator.
 - The app will display the weather for a default city (e.g., London).
-- Use the search functionality to look up weather information for different cities.
 - View the current weather, hourly forecast, and additional weather details.
 
 ### Dependencies
